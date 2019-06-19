@@ -6,7 +6,7 @@ import (
 
 	"github.com/drone/go-scm/scm"
 	webhookv1 "github.com/rancher/gitwatcher/pkg/apis/gitwatcher.cattle.io/v1"
-	v1 "github.com/rancher/gitwatcher/pkg/generated/controllers/gitwatcher.cattle.io/v1"
+	"github.com/rancher/gitwatcher/pkg/generated/controllers/gitwatcher.cattle.io/v1"
 	"github.com/rancher/gitwatcher/pkg/git"
 	"github.com/rancher/gitwatcher/pkg/provider/scmprovider"
 	v12 "github.com/rancher/wrangler-api/pkg/generated/controllers/core/v1"
